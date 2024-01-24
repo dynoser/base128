@@ -1,0 +1,24 @@
+{
+    "name": "dynoser/base128",
+    "description": "Encoder and decoder vc128 algorithm (base-128, 128-chars alphabet)",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Dynoser",
+            "email": "alex@w3o.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/vc128.php"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.6.15"
+    },
+    "extra": {
+        "dyno-nsmap": {
+            "dynoser\\base128\\vc128": "@/dynoser/base128/src/vc128.php"
+        }
+    }
+}
